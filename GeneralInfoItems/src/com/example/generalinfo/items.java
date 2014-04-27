@@ -111,7 +111,7 @@ public class items {
 
 	
 	public static void runMain(){
-		/*
+		
 		itemsArray[0] = new items("Abyssal Scepter", "Common", "Advanced", "+70 ability power \n+45 magic resistance", "Unique: Reduces the magic resist of nearby enemies by 20 (700 range).", "", "", "", "", "Defense > Magic Resist \nMagic > Ability Power", "2560g (980g)", "1792g");
 		itemsArray[1] = new items("Aegis of the Legion", "Common", "Advanced", "+200 health \n+200 magic resistance", "Unique Aura - Legion: Nearby allied champions gain +20 magic resist and +10 heath regen per 5 seconds. (110 range)", "","","","", "Defense > Health \nDefense > Health Regen \nDefense > Magic Resist", "1900g (600g)", "1330g");
 		itemsArray[2] = new items("Aether Wisp", "Common", "Advanced", "+30 ability power", "Unique Passive: +5% movement speed", "","","","", "Magic > Ability Power \nMovement > Other Movement Items", "950g (515g)", "665g");
@@ -127,31 +127,31 @@ public class items {
 		itemsArray[12] = new items("Banner of Command", "Common", "Legendary", "+80 ability power \n+20% cooldown reduction", "Unique Aura - Valor: Nearby allied minions have 15% increased attack damage and ability power.", "Unique Active - Promote: Transforms a nearby siege minion to a more powerful unit. You gain all the gold this unit earns. 180 second cooldown.", "", "", "", "Magic > Ability Power \nMagic > Cooldown Reduction", "2400g (720g)", "1680g");
 		itemsArray[13] = new items("Banshee's Veil", "Summoner's Rift \nTwisted Treeline \nHowling Abyss", "Legendary", "+450 health \n+55 magic resistance", "Unique: Grants a spell shield that blocks the next enemy ability. This shield refreshes after no damage is taken from enemy champions for 25 seconds.", "Unique: Grants 45 health regen for up to 10 seconds after taking damage from an enemy champion or when the spell shield breaks.", "", "", "", "Defense > Health \nDefense > Magic Resist", "2750g (950g)", "1925g");
 		itemsArray[14] = new items("Berserker's Greaves", "Common", "Advanced", "+20% atttack speed", "Unique - Enhanced Movement: +45 movement speed", "", "", "", "", "Attack > Attack Speed \nMovement", "900g (175g)", "630g");
-		itemsArray[15] = new items("Bilgewater Cutlass",
-		itemsArray[16] = new items("Blackfire Torch",
+		itemsArray[15] = new items("Bilgewater Cutlass", "Common", "Legendary", "+25 attack damage \n+12% life steal", "Unique Active: Deals 100 magic damage and slows the target enemy champion's movement speed by 25% for 2 seconds. 90 second cooldown. (500 range)", "", "", "", "", "Attack > Damage \nAttack > Life Steal", "1400g (240g)", "980g");
+		itemsArray[16] = new items("Blackfire Torch", "Twisted Treeline \n Crystal Scar", "Legendary", "+80 ability power \n+10% cooldown reduction", "Unique Active: Deals 20% of target champion's maximum Health in magic damage over 4 seconds and increases all subsequent magic damage taken by target by 20% (60 second cooldown)", "", "", "", "", "Defense > Health \nMagic > Ability Power \nMagic > Cooldown Reduction", "2650g (970g)", "1855g");
 		itemsArray[17] = new items("Blade of the Ruined King", "Common", "Mythical", "+25 attack damage \n+15% life steal \n+40% attack speed", "Unique Passive: Your attacks deal 5% of the target's current health in physical damage (60 max vs minions and monsters).", "Unique Active: Drains target champion, dealing 15% of the champion's maximum health in physical damage (min. 100) and healing you for the damage dealt. Additionally you steal 30% of their movement speed for 3 seconds. 90 second cooldown. (450 range)", "", "", "", "Attack > Attack Damage \nAttack > Attack Speed \nAttack > Life Steal", "3200g (1000g)", "1995");
-		itemsArray[18] = new items("Blasting Wand",
-		itemsArray[19] = new items("Bonetooth Necklace (Blue)",
-		itemsArray[20] = new items("Bonetooth Necklace (Green)",
-		itemsArray[21] = new items("Bonetooth Necklace (Red)",
-		itemsArray[22] = new items("Bonetooth Necklace (Yellow)",
+		itemsArray[18] = new items("Blasting Wand", "Common", "Basic", "+40 ability power", "", "", "", "", "", "Magic > Ability Power", "860g", "602g");
+		itemsArray[19] = new items("Bonetooth Necklace (Blue)", "Common", "", "", "Rengar's Trinket", "Unique Passive - Mementos of the Hunt: Rengar collects trophies when killing champions and gains bonus effects based on how many trophies he has. Rengar gains one Trophy whenever he scores a kill or assist. 3 Trophies - Rengar gains flat movement speed while out of combat or while in brush. 6 Trophies -  Unseen Predator's range is increased by 125. 12 Trophies -  Thrill of the Hunt stealth duration is increased. 20 Trophies -  Thrill of the Hunt's bonus movement speed is doubled.", "Unique Active - Scrying Orb: Reveals small location within 2500 / 3500 / 4000 range for 1 second (120 second cooldown). Enemy champions hit will be revealed for 5 seconds. This does not affect stealth champions.", "", "", "", "", "");
+		itemsArray[20] = new items("Bonetooth Necklace (Green)","Common", "", "", "Rengar's Trinket", "Unique Passive - Mementos of the Hunt: Rengar collects trophies when killing champions and gains bonus effects based on how many trophies he has. Rengar gains one Trophy whenever he scores a kill or assist. 3 Trophies - Rengar gains flat movement speed while out of combat or while in brush. 6 Trophies -  Unseen Predator's range is increased by 125. 12 Trophies -  Thrill of the Hunt stealth duration is increased. 20 Trophies -  Thrill of the Hunt's bonus movement speed is doubled.", "", "", "", "", "", "");
+		itemsArray[21] = new items("Bonetooth Necklace (Red)", "Common", "", "", "Rengar's Trinket", "Unique Passive - Mementos of the Hunt: Rengar collects trophies when killing champions and gains bonus effects based on how many trophies he has. Rengar gains one Trophy whenever he scores a kill or assist. 3 Trophies - Rengar gains flat movement speed while out of combat or while in brush. 6 Trophies -  Unseen Predator's range is increased by 125. 12 Trophies -  Thrill of the Hunt stealth duration is increased. 20 Trophies -  Thrill of the Hunt's bonus movement speed is doubled.", "Unique Active - Sweeping Lens: Summons a drone at the target location for 4 / 6 / 10 seconds (400 / 600 range). The drone reveals and disables all invisible traps and wards within an 400 / 600 unit radius. (90 second cooldown). At 20 Trophies, you also gain true sight for 8 seconds.", "", "", "", "", "");
+		itemsArray[22] = new items("Bonetooth Necklace (Yellow)","Common", "", "", "Rengar's Trinket", "Unique Passive - Mementos of the Hunt: Rengar collects trophies when killing champions and gains bonus effects based on how many trophies he has. Rengar gains one Trophy whenever he scores a kill or assist. 3 Trophies - Rengar gains flat movement speed while out of combat or while in brush. 6 Trophies -  Unseen Predator's range is increased by 125. 12 Trophies -  Thrill of the Hunt stealth duration is increased. 20 Trophies -  Thrill of the Hunt's bonus movement speed is doubled.", "Unique Active - Bonetooth Totem: Places a  Stealth Ward that lasts 60 / 120 / 180 seconds. (120 second cooldown). Limit 3 Stealth Wards on the map per player.", "", "", "", "", "");
 		itemsArray[23] = new items("Boots of Mobility", "Common", "Advanced", "", "Unique - Enhanced Movement: +25 movement speed. Increases to +105 movement speed when out of combat for 5 seconds.", "", "", "", "", "Movement", "800g (475g)", "560g");
-		itemsArray[24] = new items("Boots of Speed",
+		itemsArray[24] = new items("Boots of Speed", "Common", "Basic", "", "Unique Passive - Enhanced Movement: +25 movement speed", "", "", "", "", "Movement", "325g", "227g");
 		itemsArray[25] = new items("Boots of Swiftness", "Common", "Advanced", "", "Unique - Enhanced Movement: +60 movement speed.", "Unique - Slow Resist: Movement slowing effects are reduced by 25%", "", "", "", "Movement", "1000g (675g)", "700g");
-		itemsArray[26] = new items("Brawler's Gloves",
-		itemsArray[27] = new items("Catalyst the Protector",
-		itemsArray[28] = new items("Chain Vest",
-		itemsArray[29] = new items("Chalice of Harmony",
-		itemsArray[30] = new items("Cloak of Agility",
-		itemsArray[31] = new items("Cloth Armor",
-		itemsArray[32] = new items("Crystalline Flask",
-		itemsArray[33] = new items("Dagger",
+		itemsArray[26] = new items("Brawler's Gloves", "Common", "Basic", "+8% critical strike chance", "", "", "", "", "", "Attack > Critical Strike", "400g", "280g");
+		itemsArray[27] = new items("Catalyst the Protector", "Common", "Advanced", "+200 health \n+300 mana", "Unique Passive - Valor's Reward: On leveling up, restores 150 health and 200 mana over 8 seconds.", "", "", "", "", "Defense > Health \nMagic > Mana", "1200g (400g)", "840g");
+		itemsArray[28] = new items("Chain Vest", "Common", "Basic", "+40 armor", "", "", "", "", "", "Defense > Armor", "720g", "504g");
+		itemsArray[29] = new items("Chalice of Harmony", "Common", "Advanced", "+25 magic resistance \n+7 mana regeneration", "Unique Passive - Mana Font: Increases your mana regeneration by 1% per 1% mana you are missing.", "", "", "", "", "Defense > Magic Resist \nMagic > Mana Regen", "880g (120g)", "616g");
+		itemsArray[30] = new items("Cloak of Agility", "Common", "Basic", "+15% critical strike chance", "", "", "", "", "", "Attack > Critical Strike", "730g", "511g");
+		itemsArray[31] = new items("Cloth Armor", "Common", "Basic", "+15 armor", "", "", "", "", "", "Defense > Armor", "300g", "210g");
+		itemsArray[32] = new items("Crystalline Flask", "Summoner's Rift \nTwisted Treeline \nCrystal Scar", "Consumable", "", "Unique Passive: Starts with 3 charges and refills each time you stop by your shop.", "Active: Consumes a charge to restore 120 health and 60 mana over 12 seconds.", "", "", "", "Defense > Health Regen \nMagic > Mana Regen \nConsumables", "345g", "138g");
+		itemsArray[33] = new items("Dagger", "Common", "Basic", "+12% attack speed", "", "", "", "", "", "Attack > Attack Speed", "400g", "280g");
 		itemsArray[34] = new items("Deathfire Grasp", "Summoner's Rift \nHowling Abyss", "Legendary", "+120 ability power \n+10% cooldown reduction", "Unique Active: Deals 15% of target champion's maximum health in magic damage and applies the debuff, Doom. Doom amplifies all magic damage that champion takes by 20% for 4 seconds. 60 second cooldown (750 range).", "", "", "", "", "Magic > Ability Power \nMagic > Cooldown Reduction", "3100g (680g)", "2170g");
-		itemsArray[35] = new items("Dervish Blade",
-		itemsArray[36] = new items("Doran's Blade",
-		itemsArray[37] = new items("Doran's Ring",
-		itemsArray[38] = new items("Doran's Shield",
-		itemsArray[39] = new items("Elixir of Brilliance",
+		itemsArray[35] = new items("Dervish Blade", "Twisted Treeline \nCrystal Scar", "Legendary", "+50% attack speed \n+45 magic resist \n+10% cooldown reduction", "Unique Active - Quicksilver: Removes all debuffs from your champion. Melee champions also gain +50% movement speed for 1 second. 90 second cooldown.", "", "", "", "", "", "3000g (200g)", "2100g");
+		itemsArray[36] = new items("Doran's Blade", "Summoner's Rift \nTwisted Treeline \nHowling Abyss", "Basic", "+80 health \n+8 attack damage", "Passive: Basic Attacks restore 3 health for ranged, and 5 health for melee champions", "", "", "", "", "Attack > Damage \nDefense > Health", "440g", "176g");
+		itemsArray[37] = new items("Doran's Ring", "Summoner's Rift \nTwisted Treeline \nHowling Abyss", "Basic", "+15 ability power \n+60 health \n+3 mana regeneration", "Restores 4 mana when you kill an enemy unit.", "", "", "", "", "Defense > Health \nMagic > Ability Power \nMagic > Mana Regen", "400g", "160");
+		itemsArray[38] = new items("Doran's Shield", "Common", "Basic", "+80 health \n+6 health regen per 5 seconds", "Unique Passive: Blocks 8 damage from champion basic attacks.", "", "", "", "", "Defense > Health \nDefense > Health Regen", "440g", "176g");
+	/*	itemsArray[39] = new items("Elixir of Brilliance",
 		itemsArray[40] = new items("Elixir of Fortitude",
 		itemsArray[41] = new items("Enchantment: Alacrity",
 		itemsArray[42] = new items("Enchantment: Captain",
