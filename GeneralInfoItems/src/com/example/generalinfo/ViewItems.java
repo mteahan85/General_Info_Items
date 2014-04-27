@@ -799,17 +799,17 @@ public class ViewItems extends ActionBarActivity {
      			
      			//Setting Text for TextViews
      			nameText.setText(name);
-     			availabilityText.setText("Availability: " + availability);
-     			tierText.setText("Tier: " + tier);
-     			statsText.setText("Stats: " + stats);
+     			availabilityText.setText("Availability: \n" + availability);
+     			tierText.setText("Tier: \n" + tier);
+     			statsText.setText("Stats: \n" + stats);
      			passive1Text.setText(passive1);
      			passive2Text.setText(passive2);
      			passive3Text.setText(passive3);
      			passive4Text.setText(passive4);
      			passive5Text.setText(passive5);
-     			menuText.setText("Menu: " + menu);
-     			itemCostText.setText("Cost: " + itemCost);
-     			sellValueText.setText("Sell Value: " + sellValue);
+     			menuText.setText("Menu: \n" + menu);
+     			itemCostText.setText("Cost: \n" + itemCost);
+     			sellValueText.setText("Sell Value: \n" + sellValue);
      			
      			
      }

@@ -18,7 +18,7 @@ public class items {
 	public String menu;
 	public String itemCost;
 	public String sellValue;
-	public static items[] itemsArray = new items[100];
+	public static items[] itemsArray = new items[180];
 	
 	
 	//Method to get random boots. High must be 1 higher than the desired index
