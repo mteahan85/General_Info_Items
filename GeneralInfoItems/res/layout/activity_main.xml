@@ -15,7 +15,7 @@
         android:layout_above="@+id/button1"
         android:layout_alignLeft="@+id/button1"
         android:layout_marginBottom="63dp"
-        android:src="@drawable/aatrox" />
+        android:src="@drawable/abyssalscepter" />
 
     <TextView
         android:id="@+id/textView1"
@@ -24,7 +24,7 @@
         android:layout_above="@+id/button1"
         android:layout_alignRight="@+id/icon"
         android:layout_marginBottom="24dp"
-        android:text="Medium Text"
+        android:text="Abyssal Scepter"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <Spinner
@@ -42,7 +42,7 @@
         android:layout_alignRight="@+id/spinner1"
         android:layout_marginBottom="96dp"
         android:layout_marginRight="19dp"
-        android:onClick="viewchampions"
+        android:onClick="viewitems"
         android:text="View" />
 
 </RelativeLayout>
